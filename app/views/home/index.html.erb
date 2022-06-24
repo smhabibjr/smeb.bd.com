@@ -39,27 +39,27 @@
 
   <div class="our-partners-log-section container">
     <div class="row">
-      <div class="col-lg-3 col-md-6 col-sm-6 d-flex justify-content-center">
+      <div class="col-lg-3 justify-content-center d-none d-lg-flex">
         <a href="#">
           <%= image_tag "our partners/1-bd-marine-academy.jpg", class: "rounded img-thumbnail p-3 m-3", style: "height:200px; width:200px " %>
         </a>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-sm-6 d-flex justify-content-center">
+      <div class="col-lg-3 justify-content-center d-none d-lg-flex">
         <a href="#">
           <%= image_tag "our partners/2-bd-nevy.png", class: "rounded img-thumbnail p-3 m-3", style: "height:200px; width:200px " %>
         </a>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-sm-6 d-flex justify-content-center">
+      <div class="col-lg-3 justify-content-center d-none d-lg-flex">
         <a href="#">
           <%= image_tag "our partners/3-bimt.jpg", class: "rounded img-thumbnail p-3 m-3", style: "height:200px; width:200px " %>
         </a>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-sm-6 d-flex justify-content-center">
+      <div class="col-lg-3 justify-content-center d-none d-lg-flex">
         <a href="#">
-          <%= image_tag "our partners/4-sembcorp-marine-admiralty-yard.png", class: "rounded img-thumbnail p-3 m-3", style: "height:200px; width:200px " %>
+          <%= image_tag "our partners/6-Marine_fisheries_academy.jpg", class: "rounded img-thumbnail p-3 m-3", style: "height:200px; width:200px " %>
         </a>
       </div>
 
@@ -71,7 +71,7 @@
 
       <div class="col-lg-3 col-md-6 col-sm-6 d-flex justify-content-center">
         <a href="#">
-          <%= image_tag "our partners/6-Marine_fisheries_academy.jpg", class: "rounded img-thumbnail p-3 m-3", style: "height:200px; width:200px " %>
+          <%= image_tag "our partners/4-sembcorp-marine-admiralty-yard.png", class: "rounded img-thumbnail p-3 m-3", style: "height:200px; width:200px " %>
         </a>
       </div>
 
@@ -294,62 +294,191 @@
   </div>
 </section>
 
-<section class="shadow-none p-4 bg-light rounded">
-  <div class="container p-3">
-      <div class="row">
-        <div class="col d-flex justify-content-center p-4">
-          <h1>Recect Blog Post</h1>
+
+<section class="shadow-none p-4 bg-dark rounded">
+
+  <div class="row">
+    <div class="col d-flex justify-content-center p-4">
+      <h1 class="text-light">Recect Blog Post</h1>
+    </div>
+  </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <div class="container">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <a class="text-decoration-none" href="">
+                      <h5 class="card-title"> <%= image_tag 'author/1-author.jpg', class: "rounded-circle", style: "height:30px;width:30px" %> Rahman Habib</h5>
+                    </a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a class="btn btn-primary">Button</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                       alt="Card image cap">
+                  <div class="card-body">
+                    <a class="text-decoration-none" href="">
+                      <h5 class="card-title"> <%= image_tag 'author/2-author.jpg', class: "rounded-circle", style: "height:30px;width:30px" %> Rahman Habib</h5>
+                    </a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a class="btn btn-primary">Button</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
+                       alt="Card image cap">
+                  <div class="card-body">
+                    <a class="text-decoration-none" href="">
+                      <h5 class="card-title"> <%= image_tag 'author/3-author.png', class: "rounded-circle", style: "height:30px;width:30px" %> Rahman Habib</h5>
+                    </a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a class="btn btn-primary">Button</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-2">
+                  <!-- <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                       alt="Card image cap"> -->
+                  <%= image_tag "carousel-1.jpg", class: "card-img-top" %>
+                  <div class="card-body">
+                    <a class="text-decoration-none" href="">
+                      <h5 class="card-title"> <%= image_tag 'author/1-author.jpg', class: "rounded-circle", style: "height:30px;width:30px" %> Rahman Habib</h5>
+                    </a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a class="btn btn-primary">Button</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                  <!-- <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                       alt="Card image cap"> -->
+                  <%= image_tag "carousel-2.jpg", class: "card-img-top" %>
+                  <div class="card-body">
+                    <a class="text-decoration-none" href="">
+                      <h5 class="card-title"> <%= image_tag 'author/2-author.jpg', class: "rounded-circle", style: "height:30px;width:30px" %> Rahman Habib</h5>
+                    </a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a class="btn btn-primary">Button</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                  <!-- <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                       alt="Card image cap"> -->
+                  <%= image_tag "carousel-3.jpg", class: "card-img-top" %>
+                  <div class="card-body">
+                    <a class="text-decoration-none" href="">
+                      <h5 class="card-title"> <%= image_tag 'author/3-author.png', class: "rounded-circle", style: "height:30px;width:30px" %> Rahman Habib</h5>
+                    </a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a class="btn btn-primary">Button</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                       alt="Card image cap">
+                  <div class="card-body">
+                    <a class="text-decoration-none" href="">
+                      <h5 class="card-title"> <%= image_tag 'author/1-author.jpg', class: "rounded-circle", style: "height:30px;width:30px" %> Rahman Habib</h5>
+                    </a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a class="btn btn-primary">Button</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                  <!-- <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                       alt="Card image cap"> -->
+                  <%= image_tag "carousel-1.jpg", class: "card-img-top" %>
+                  <div class="card-body">
+                    <a class="text-decoration-none" href="">
+                      <h5 class="card-title"> <%= image_tag 'author/2-author.jpg', class: "rounded-circle", style: "height:30px;width:30px" %> Rahman Habib</h5>
+                    </a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a class="btn btn-primary">Button</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                  <!-- <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                       alt="Card image cap"> -->
+                  <%= image_tag "carousel-3.jpg", class: "card-img-top" %>
+                  <div class="card-body">
+                    <a class="text-decoration-none" href="">
+                      <h5 class="card-title"> <%= image_tag 'author/3-author.png', class: "rounded-circle", style: "height:30px;width:30px" %> Rahman Habib</h5>
+                    </a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a class="btn btn-primary">Button</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-  <div class="row">
-    <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center p-2">
-        <div class="card" style="width: 18rem;">
-          <%= image_tag "carousel-1.jpg", class: "card-img-top" %>
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Read more</a>
-          </div>
-        </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
     </div>
 
-    <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center p-2">
-        <div class="card" style="width: 18rem;">
-          <%= image_tag "carousel-2.jpg", class: "card-img-top" %>
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Read more</a>
-          </div>
-        </div>
-    </div>
-
-    <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center p-2">
-        <div class="card" style="width: 18rem;">
-          <%= image_tag "carousel-3.jpg", class: "card-img-top" %>
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Read more</a>
-          </div>
-        </div>
-    </div>
-
-    <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center p-2">
-        <div class="card" style="width: 18rem;">
-          <%= image_tag "carousel-3.jpg", class: "card-img-top" %>
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Read more</a>
-          </div>
-        </div>
-    </div>
-  </div>
-  </div>
 </section>
-
 
 
 <section class="team text-center py-5">
@@ -456,6 +585,41 @@
   </div>
 </section>
 <!-- credits: https://bootstrapcrew.com/snippets/team-members/ -->
+
+<!-- Back to top button -->
+<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<script>
+    //Get the button
+    let mybutton = document.getElementById("btn-back-to-top");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+        ) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    mybutton.addEventListener("click", backToTop);
+
+    function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+
+
 
 
 
