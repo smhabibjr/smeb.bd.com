@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'blog', to: "blog#index"
   get 'login', to:"login#index"
   get 'signup', to:"signup#index"
   root 'home#index'
