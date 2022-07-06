@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'events', to:"event#index"
   get 'members',to:"member#index"
   get 'courses', to:"course#index"
   get 'blog', to: "blog#index"
