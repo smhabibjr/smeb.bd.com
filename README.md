@@ -1,6 +1,32 @@
 
 # smeb.bd.com
 
+### Configuration
+
+Clone this repository.
+````
+https://github.com/smhabibjr/smeb.bd.com.git
+````
+
+````
+cd smeb.bd.com
+````
+
+### Run
+
+To run this application you don't need to install ruby or ruby on rails on your local machine. Because this project has been configured with a docker file. Just you have to have docker installed on your local machine.
+
+To build a docker image. Open the terminal from your project directory.
+````
+docker build . -t smeb_bd_com
+````
+Build and Run the container.
+````
+docker run -p 3000:3000 smeb_bd_com
+````
+After running the container. Go to the browser and curl http://localhost:3000
+
+
 #### Screenshots
 
 ![image](https://user-images.githubusercontent.com/77357735/198022176-380d7041-b5ef-4beb-9e55-17512d4c65a7.png)
