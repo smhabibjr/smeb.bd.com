@@ -5,7 +5,7 @@
 
 Clone this repository.
 ````
-https://github.com/smhabibjr/smeb.bd.com.git
+git clone https://github.com/smhabibjr/smeb.bd.com.git
 ````
 
 ````
